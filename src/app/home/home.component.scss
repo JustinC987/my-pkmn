@@ -1,0 +1,43 @@
+.pokemon-content {
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+table {
+	width: 100%;
+	border-radius: 100%;
+}
+
+.table-top-controls i {
+	margin-left: 0.25em;
+	margin-right: 0.25em;
+	cursor: pointer;
+}
+
+.table-search {
+	height: 60px;
+	width: 100%;
+}
+
+.mat-form-field {
+	display: block;
+}
+
+.mat-row {
+	height: auto;
+}
+
+.mat-cell.first-table-column {
+	padding-right: 2em;
+	padding-left: 0 !important;
+}
+
+.pokemon-detail-card {
+	margin-left: 1em;
+	position: fixed;
+	text-align: center;
+}
+
+.pokemon-detail-card img {
+	margin-top: -0.5em;
+}

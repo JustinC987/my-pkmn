@@ -1,1 +1,91 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+/**
+* Font Awesome
+*/
+@import url('https://use.fontawesome.com/releases/v5.3.1/css/all.css');
+
+/**
+* Base style
+*/
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #fafafa;
+}
+
+html,
+body,
+.input-form,
+textarea {
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	color: #242424;
+}
+
+/**
+* Containers
+*/
+
+.container {
+	width: 90%;
+	margin: auto;
+}
+
+.flex-outer {
+	display: flex;
+	flex-flow: wrap;
+}
+
+.flex-inner,
+.flex-outer > div {
+	flex: 1;
+}
+
+/**
+* Buttons
+*/
+
+button {
+	padding: 0;
+	margin: 0;
+	border-style: none;
+}
+
+mat-icon {
+	background-color: #fafafa;
+}
+
+/*
+* Mat table colors
+*/
+
+.mat-row:hover {
+	background-color: #fafafa;
+
+	cursor: pointer;
+}
+
+/*
+* Mat table styles
+*/
+
+/*
+* Mat-input
+*/
+
+mat-form-field {
+	display: block;
+	margin: auto;
+
+	width: 50%;
+}
+
+img {
+	margin-right: -0;
+}
